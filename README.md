@@ -48,3 +48,8 @@ pois ela lida bem com relações lineares entre atributos e a variável alvo.
 # O que poderia ser feito para melhorar os modelos?
 Para melhorar os modelos, é possível tratar valores inválidos ou ausentes, normalizar os dados, balancear as classes, ajustar hiperparâmetros
 Além disso, criar novas features a partir dos dados existentes pode aumentar a capacidade preditiva.
+
+# Conclusão
+O resultado faz sentido, pois as variáveis contínuas favorecem a Regressão Logística. Para melhorar os modelos, p
+oderiam ser aplicadas técnicas adicionais de pré-processamento, balanceamento de classes e ajuste de hiperparâmetros.
+Essas melhorias aumentariam a capacidade preditiva e a confiabilidade do modelo em novos dados.
