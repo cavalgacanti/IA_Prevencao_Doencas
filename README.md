@@ -1,1 +1,39 @@
 # IA_Prevencao_Doencas
+
+# 1- O que significa classificação supervisionada?
+Classificação supervisionada é um tipo de aprendizado de máquina em que o modelo é treinado com dados que já têm a resposta correta
+a classificação supervisionada é usada para prever se um tumor é benigno ou maligno, aprendendo com exemplos já classificados. Os modelos utilizam essas informações rotuladas para generalizar e classificar novos casos.
+
+# 2- Qual é a importância de dividir o dataset em conjunto de treino e teste?
+Dividir o dataset em treino e teste é importante para avaliar se o modelo realmente aprendeu os padrões dos dados ou se apenas “decorou” os exemplos.
+Conjunto de treino: usado para ensinar o modelo, ajustando os parâmetros a partir dos exemplos.
+Conjunto de teste: usado para medir o desempenho em dados novos, simulando situações do mundo real.
+
+# 3- Qual a diferença entre Decision Tree e KNN em termos de funcionamento?
+A Decision Tree cria regras de decisão durante o treino, formando uma árvore que classifica os dados rapidamente e é fácil de interpretar, mas pode sobreajustar. 
+O KNN não treina um modelo, apenas armazena os dados de treino e classifica novos exemplos com base nos vizinhos mais próximos, 
+sendo sensível à escala das features e mais lento em grandes conjuntos de dados.
+
+# DATASET
+O dataset utilizado foi o Pima Indians Diabetes Database, disponível no Kaggle. 
+Ele contém informações médicas de 768 pacientes mulheres com mais de 21 anos da tribo indígena Pima, localizada no Arizona (EUA).
+
+# Resultado
+
+Decision Tree
+Acurácia: 0.7272727272727273
+Matriz de Confusão:
+ [[85 15]
+ [27 27]]
+
+ KNN
+Acurácia: 0.7012987012987013
+Matriz de Confusão:
+ [[80 20]
+ [26 28]]
+
+ Logistic Regression
+Acurácia: 0.7142857142857143
+Matriz de Confusão:
+ [[82 18]
+ [26 28]]
